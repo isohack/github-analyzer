@@ -15,3 +15,13 @@ Then to install this package, do:
 This will install it into your virtual environment and to remove do:
 
 `pip uninstall github-analyzer`
+
+### Testing
+
+`import github_analyzer`
+
+`client = github_analyzer.Client()`
+
+`data = client.repository.fetch('shashank-sharma', 'mythical-feedback')`
+
+Now you'll get the data
